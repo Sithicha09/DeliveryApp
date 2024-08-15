@@ -14,7 +14,7 @@ export default function Memberpart1() {
                             ศิธิฌา บรรทุกธรรม
                         </Text>
                         <View style={{marginTop:15}}>
-                        <Image style={{width:80 ,height:80,borderRadius:80/2}} source={require('../../assets/week3/room-6.jpg')}/>
+                        <Image style={{width:70 ,height:70,borderRadius:70/2}} source={require('../../assets/week3/profile-4.jpg')}/>
                         </View>
                         <Text style={{marginTop:10,fontSize: 50,fontWeight: 'bold',color:'white'}}>
                             50
