@@ -9,17 +9,17 @@ export default function Part8activity(props) {
                 <View style={{ flexDirection: 'row', marginTop: 10 }}>
 
                     <View style={{ marginLeft: 10 }}>
-                        <Image source={{ uri: 'https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/trip-1.jpg' }}
+                        <Image source={{ uri: 'https://7elevenweb.s3.ap-southeast-1.amazonaws.com/page/2634a3e1df0341048f576c9275aa23a1.jpg' }}
                             style={{ width: 350, height: 180, borderRadius: 10 }} />
                     </View>
 
                     <View style={{ marginLeft: 10 }}>
-                        <Image source={{ uri: 'https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/trip-1.jpg' }}
+                        <Image source={{ uri: 'https://www.cpbrandsite.com/contents/news/sf5rxwibbctuvjfu5ycgejw9inyowzehjmuqidph.png' }}
                             style={{ width: 350, height: 180, borderRadius: 10 }} />
                     </View>
 
                     <View style={{ marginLeft: 10 }}>
-                        <Image source={{ uri: 'https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/trip-1.jpg' }}
+                        <Image source={{ uri: 'https://bertram1958.com/wp-content/uploads/2022/12/online-Siangpure-711.png' }}
                             style={{ width: 350, height: 180, borderRadius: 10 }} />
                     </View>
                 </View>
