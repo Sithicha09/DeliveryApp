@@ -4,12 +4,17 @@ import Homepage from './screens/project1/Homepage';
 import Memberpage from './screens/project1/Memberpage';
 import Notipage from './screens/project1/Notipage';
 import Couponpage from './screens/project1/Couponpage';
+import Testpage1 from './screens/test/Testpage1';
 
 export default function App() {
   return (
     // <Homepage />
-    <Memberpage/>
+    // <Memberpage/>
     // <Notipage/>
     // <Couponpage/>
+
+
+    //test
+    <Testpage1/>
   );
 }
