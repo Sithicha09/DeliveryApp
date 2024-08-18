@@ -8,7 +8,7 @@ export default function Memberpart1() {
 
             <View style={{ flexDirection: 'row' }}>
                 {/* <Image style={{ flex: 1, resizeMode: 'cover', aspectRatio: 16 / 11 }} source={require('../../assets/week3/room-6.jpg')} /> */}
-                <View style={{ flex: 1, backgroundColor: '#4f73d4', width: 100, height: 300, borderRadius: 10 }}>
+                <View style={{ flex: 1, backgroundColor: '#4f73d4', width: 100, height: 300, borderBottomLeftRadius: 10, borderBottomRightRadius: 10}}>
                     <View style={{ alignItems: 'flex-end',margin:20 }}>
                         <Text style={{marginTop:20,fontSize: 20,fontWeight: 'bold',color:'white'}}>
                             ศิธิฌา บรรทุกธรรม
