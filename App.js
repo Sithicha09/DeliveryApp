@@ -5,6 +5,9 @@ import Memberpage from './screens/project1/Memberpage';
 import Notipage from './screens/project1/Notipage';
 import Couponpage from './screens/project1/Couponpage';
 import Testpage1 from './screens/test/Testpage1';
+import { NavigationContainer } from '@react-navigation/native';
+import BottomTab from './navigations/BottomTab';
+import HomeStack from './navigations/HomeStack';
 
 export default function App() {
   return (
@@ -13,8 +16,16 @@ export default function App() {
     // <Notipage/>
     // <Couponpage/>
 
+    //navigation
+    <NavigationContainer>
+      {/* <HomeStack /> */}
+      <BottomTab />
+    </NavigationContainer>
+
 
     //test
-    <Testpage1/>
+    // <Testpage1/>
+
+
   );
 }
