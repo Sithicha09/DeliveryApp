@@ -11,7 +11,6 @@ export default function Productpart9() {
     ];
     return (
         <View style={{margin:10}}>
-            <Text style={{ fontSize: 15,marginBottom:10,marginLeft:10}}>โปรโมชั่น</Text>
             <FlatList
                 horizontal={true}
                 data={benefits}

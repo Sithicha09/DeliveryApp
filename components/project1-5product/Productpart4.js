@@ -6,31 +6,31 @@ export default function Productpart4() {
     return (
         <View style={{ flexDirection: 'row' }}>
             <ScrollView horizontal={true}>
-                <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e6e6', marginHorizontal: 20, paddingVertical: 10, borderRadius: 10, width: 170, height: 70 }}>
-                    <View style={{}}>
-                        <Image style={{ width: 50, height: 50, borderRadius: 150 / 2 }} source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0D3H8qtW_70BSrWjEqyeFFh4gaU_hy21Hw&s' }} />
+                <View style={{flex: 1,marginBottom:10, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#fff', marginHorizontal: 20, paddingVertical: 10, borderRadius: 10, width: 170, height: 70,shadowColor: '#000',shadowOffset: { width: 2, height: 2 },shadowOpacity: 0.2,shadowRadius: 5, elevation: 5, }}>
+                    <View style={{marginLeft:30}}>
+                        <Image style={{ width: 50, height: 50, borderRadius: 150 / 2 }} source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9j9x2aj-G0MA0iGLX5V96ZwDS0lF770E0qw&s' }} />
                     </View>
-                    <View>
-                        <Text style={{ fontSize: 15 }}>สั่งดิ่ ส่งฟรีนะ</Text>
-                    </View>
-                </View>
-
-
-                <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e6e6', marginHorizontal: 20, paddingVertical: 10, borderRadius: 10, width: 170, height: 70 }}>
-                    <View style={{}}>
-                        <Image style={{ width: 50, height: 50, borderRadius: 150 / 2 }} source={{ uri: 'https://www.truemoney.com/wp-content/uploads/2021/06/truemoneywallet-7eleven-promotion-logo_AllOnline.png' }} />
-                    </View>
-                    <View>
-                        <Text style={{ fontSize: 15 }}>ช็อปห่างไกลบ้าน</Text>
+                    <View style={{marginRight:30}}>
+                        <Text style={{ fontSize: 15 }}>แพ็กเกจ</Text>
                     </View>
                 </View>
 
-                <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e6e6', marginHorizontal: 20, paddingVertical: 10, borderRadius: 10, width: 170, height: 70 }}>
-                    <View style={{}}>
-                        <Image style={{ width: 50, height: 50, borderRadius: 150 / 2 }} source={{ uri: 'https://www.truemoney.com/wp-content/uploads/2021/06/truemoneywallet-7eleven-promotion-logo_AllOnline.png' }} />
+
+                <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#fff', marginHorizontal: 20, paddingVertical: 10, borderRadius: 10, width: 170, height: 70,shadowColor: '#000',shadowOffset: { width: 2, height: 2 },shadowOpacity: 0.2,shadowRadius: 5, elevation: 5, }}>
+                    <View style={{marginLeft:30}}>
+                        <Image style={{ width: 50, height: 50, borderRadius: 150 / 2 }} source={{ uri: 'https://thumb.ac-illust.com/ff/ff50948e1e424243d368b218da5dfb64_t.jpeg' }} />
                     </View>
-                    <View>
-                        <Text style={{ fontSize: 15 }}>ช็อปห่างไกลบ้าน</Text>
+                    <View style={{marginRight:30}}>
+                        <Text style={{ fontSize: 15 }}>สินค้าสั่งจอง</Text>
+                    </View>
+                </View>
+
+                <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#fff', marginHorizontal: 20, paddingVertical: 10, borderRadius: 10, width: 170, height: 70,shadowColor: '#000',shadowOffset: { width: 2, height: 2 },shadowOpacity: 0.2,shadowRadius: 5, elevation: 5, }}>
+                    <View style={{marginLeft:30}}>
+                        <Image style={{ width: 50, height: 50, borderRadius: 150 / 2 }} source={{ uri: 'https://e7.pngegg.com/pngimages/966/563/png-clipart-iphone-true-corporation-truemove-h-business-true-move-company-limited-false-electronics-company.png' }} />
+                    </View>
+                    <View style={{marginRight:30}}>
+                        <Text style={{ fontSize: 15 }}>ทรู</Text>
                     </View>
                 </View>
             </ScrollView>

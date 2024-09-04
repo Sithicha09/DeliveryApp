@@ -36,8 +36,8 @@ const renderItem = ({ item }) => (
 
 export default function Productpart11() {
     return (
-        <View>
-            <Text>wfeef</Text>
+        <View >
+            <Text style={styles.Container}>New</Text>
             <FlatList
                 data={DATA}
                 renderItem={renderItem}
@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
         shadowRadius: 5,
         elevation: 5,
         flexDirection: 'row',
+        marginBottom:10,
     },
     productImage: {
         width: 130,
@@ -87,5 +88,13 @@ const styles = StyleSheet.create({
         color: '#00a800',
         fontWeight: 'bold',
         marginTop: 5,
+    },
+    Container:{
+        marginLeft:20,
+        marginBottom:10,
+        marginTop:10,
+        fontSize:20,
+         fontWeight: 'bold',
+
     },
 });

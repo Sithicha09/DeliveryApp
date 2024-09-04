@@ -4,7 +4,7 @@ import { Image, ScrollView, Text, View } from "react-native";
 export default function Productpart10() {
     return (
         <View style={{ flex: 1, marginLeft: 20 }}>
-            <Text style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 10 }}>แนะนำสำหรับ ALL Member</Text>
+            <Text style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 10 }}>โปรโมชั่น</Text>
             <ScrollView horizontal={true}>
                 <View style={{ flexDirection: 'row' }}>
                     <View style={{ marginRight: 10, backgroundColor: '#e6e6e6', borderTopRightRadius: 10, borderTopLeftRadius: 10, borderBottomLeftRadius: 10, borderBottomRightRadius: 10 }}>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ScrollView,  Text,  View } from 'react-native';
 import Productpart1 from '../../components/project1-5product/Productpart';
@@ -12,29 +13,27 @@ import Productpart9 from '../../components/project1-5product/Productpart9';
 import Productpart10 from '../../components/project1-5product/Productpart10';
 import Productpart11 from '../../components/project1-5product/Productpart11';
 import Productpart12 from '../../components/project1-5product/Productpart12';
-
-
+import { useNavigation } from '@react-navigation/native';
 
 export default function Productpage() {
-    return (
-        <ScrollView style={{backgroundColor:'white'}}>
-            <View style={{ flex: 1 }}>
-                <Productpart1/>
-                <Productpart2/>
-                <Productpart3/>
-                <Productpart4/>
-                <Productpart5/>
-                <Productpart6/>
-                <Productpart7/>
-                <Productpart8/>
-                <Productpart9/>
-                <Productpart10/>
-                <Productpart11/>
-                <Productpart12/>
-                
-
-                    
-            </View>
-        </ScrollView>
-    );
+  const navigation = useNavigation();
+  return (
+    <ScrollView style={{ backgroundColor: 'white' }}>
+      <View style={{ flex: 1 }}>
+        <Productpart1 />
+        <Productpart2 />
+        <Productpart3 />
+        <Productpart4 />
+        <Productpart5 />
+        <Productpart6 />
+        <Productpart7 />
+        <Productpart8 />
+        <Productpart9 />
+        <Productpart10 />
+        <Productpart11 />
+        <Productpart12 />
+      </View>
+    </ScrollView>
+  );
 }
+

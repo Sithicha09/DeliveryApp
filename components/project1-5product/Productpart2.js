@@ -8,7 +8,7 @@ export default function Productpart2() {
             <View style={{ margin: 20, padding: 10, borderWidth: 1, borderColor: 'gray', borderRadius: 20 }}>
                 {/* View ก้อนที่ 1 */}
                 <View >
-                    <TextInput style={{ fontSize: 20 }} placeholder="What're you looking for?" />
+                    <TextInput style={{ fontSize: 20 }} placeholder="ค้นหา" />
                 </View>
             </View>
             <View style={{ flexDirection: 'row' }}>

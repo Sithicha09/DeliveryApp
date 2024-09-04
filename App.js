@@ -9,6 +9,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import BottomTab from './navigations/BottomTab';
 import HomeStack from './navigations/HomeStack';
 import Productpage from './screens/project1/Productpage';
+import RootStack from './navigations/RootStack';
 
 export default function App() {
   return (
@@ -16,13 +17,14 @@ export default function App() {
     // <Memberpage/>
     // <Notipage/>
     // <Couponpage/>
-    <Productpage/>
+    // <Productpage/>
 
     //navigation
-    // <NavigationContainer>
-    //   {/* <HomeStack /> */}
-    //   <BottomTab />
-    // </NavigationContainer>
+    <NavigationContainer>
+      {/* <HomeStack /> */}
+      {/* <BottomTab /> */}
+      <RootStack />
+    </NavigationContainer>
 
 
     //test
